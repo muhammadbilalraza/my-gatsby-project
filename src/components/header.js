@@ -19,7 +19,7 @@ const Header = () => {
                     <Link to="">SIGN IN</Link>
                 </div>
 
-                <div class="navbar-brand">
+                <div class="navbar_logo">
                     <img src={companyLogo} alt="Mejuri logo" href="" />
                  </div>
             </nav>
