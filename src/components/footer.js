@@ -10,21 +10,21 @@ const Footer = () => {
                     <div class = "support">
                         <h3>SUPPORT</h3>
                         <list>
-                            <ul><a href="">Virtual Shopping</a></ul>
-                            <ul><a href="">How to Care for Your Jewelry</a></ul>
-                            <ul><a href="">Shipping</a></ul>
-                            <ul><a href="">Ring Sizer</a></ul>
-                            <ul><a href="">Accessibility Statement</a></ul>
-                            <ul><a href="">Contact Us</a></ul>        
+                            <ul><Link to="">Virtual Shopping</Link></ul>
+                            <ul><Link to="">How to Care for Your Jewelry</Link></ul>
+                            <ul><Link to="">Shipping</Link></ul>
+                            <ul><Link to="">Ring Sizer</Link></ul>
+                            <ul><Link to="">Accessibility Statement</Link></ul>
+                            <ul><Link to="">Contact Us</Link></ul>        
                         </list>
                     </div>
 
                     <div class = "companay">
                         <h3>COMPANAY</h3>
                         <list>
-                            <ul><a href="">About Us</a></ul>
-                            <ul><a href="">Careers</a></ul>
-                            <ul><a href="">Stores</a></ul>
+                            <ul><Link to="">About Us</Link></ul>
+                            <ul><Link to="">Careers</Link></ul>
+                            <ul><Link to="">Stores</Link></ul>
                         </list>
                     </div>
                 </div>   
@@ -47,9 +47,9 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <a>Terms and Conditions</a>
-                    <a>Privacy Policy</a>
-                    <a>(c)2021 Mejuri Inc.</a>
+                    <Link to="">Terms and Conditions</Link>
+                    <Link to="">Privacy Policy</Link>
+                    <Link to="">(c)2021 Mejuri Inc.</Link>
                 </div>
                 <a>Help</a>
             </container>
