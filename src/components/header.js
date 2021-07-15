@@ -3,7 +3,9 @@ import { Link } from 'gatsby'
 import { FieldsOnCorrectTypeRule } from 'graphql'
 
 const Header = () => {
-    return 
+    return (
+        <p>this is header</p>
+    )
 }
 
 export default Header
