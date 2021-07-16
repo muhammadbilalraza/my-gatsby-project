@@ -1,4 +1,15 @@
 .header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #faf7ef;
+  background-color: grey;
+  border-bottom: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  margin: 0 0 0 0;
+  height: 2rem;
+}
+
+.navbar_logo {
+  max-width: 40%;
+  height: auto;
 }

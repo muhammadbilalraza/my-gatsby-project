@@ -1,16 +1,18 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import Styles from "../styles/normalize.css"
+
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+
+import Hero from "../components/Hero"
 
 export default function Home() {
   return (
     <contatiner>
-      <Header />
+      <Header></Header>
           <section>
-            <p>this is the homepage</p>
+            <Hero></Hero>
           </section>
-      <Footer />  
+      <Footer></Footer>  
     </contatiner>
    
   )
