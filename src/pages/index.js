@@ -12,7 +12,7 @@ export default function Home() {
       <section>
         <Hero></Hero>
       </section>
-      <Footer></Footer>  
+      {/* <Footer></Footer>   */}
     </contatiner>
    
   )
