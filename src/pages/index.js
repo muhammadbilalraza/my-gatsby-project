@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <contatiner>
       <Header></Header>
-          <section>
-            <Hero></Hero>
-          </section>
-      <Footer></Footer>  
+      <section>
+        <Hero></Hero>
+      </section>
+      {/* <Footer></Footer>   */}
     </contatiner>
    
   )
