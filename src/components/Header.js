@@ -8,19 +8,23 @@ const Header = () => {
     return (
         <header  className = "navbar-container"> 
             <div className="navbar navbar_links">
-                <Link to="#">Shop</Link>
-                <Link to="#">Gift Guides</Link>
-                <Link to="#">Style Edits</Link>
-                <Link to="#">About</Link>
+                <Link to="#shop">Shop</Link>
+                <Link to="#gift-guides">Gift Guides</Link>
+                <Link to="#style-edits">Style Edits</Link>
+                <Link to="#about">About</Link>
             </div>
            
             <div className="navbar navbar_links">
-                <Link to="#">Search</Link>
-                <Link to="#">Stores</Link>
-                <Link to="#">Sign in</Link>
+                <Link to="#search">Search</Link>
+                <Link to="#stores">Stores</Link>
+                <Link to="#sign-in">Sign in</Link>
             </div>
 
-            <img className="navbar navbar_logo" src={companyLogo} alt="Mejuri logo" href="#" />    
+            <div className="navbar logo_link">
+                <Link to='#'>
+                    <img className="navbar_logo" src={companyLogo} alt="Mejuri logo"/>
+                </Link>
+            </div>   
         </header>
     )
 }

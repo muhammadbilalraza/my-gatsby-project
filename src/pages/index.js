@@ -7,13 +7,11 @@ import Hero from "../components/Hero"
 
 export default function Home() {
   return (
-    <contatiner>
+    <container>
       <Header></Header>
-      <section>
-        <Hero></Hero>
-      </section>
+      <Hero></Hero>
       {/* <Footer></Footer>   */}
-    </contatiner>
+    </container>
    
   )
 }
