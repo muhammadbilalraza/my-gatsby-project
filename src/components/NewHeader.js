@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import companyLogo from "../images/MejuriLogo.png"
-import { FieldsOnCorrectTypeRule } from "graphql"
 
 const NewHeader = () => {
   return (
