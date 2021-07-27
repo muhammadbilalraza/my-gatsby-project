@@ -1,5 +1,4 @@
-/* nac container */
-.navbar-container {
+nac container .navbar-container {
   background-color: white;
   display: flex;
   flex-direction: row;
