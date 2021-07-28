@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <section>
       <div className="hero">
-        <img id="first-image" src={HeroPhoto1}></img>
-        <img id="second-image" src={HeroPhoto2}></img>
+        <img id="first-image" src={HeroPhoto1} alt=""></img>
+        <img id="second-image" src={HeroPhoto2} alt=""></img>
         <p>
           Fine jewelry
           <br />

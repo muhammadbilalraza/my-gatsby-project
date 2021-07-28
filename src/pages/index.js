@@ -1,19 +1,16 @@
 import React from "react"
-
 // import Header from "../components/Header"
-// import Footer from "../components/Footer"
-
-import Hero from "../components/Hero"
-
 import NewHeader from "../components/NewHeader"
+import Hero from "../components/Hero"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
     <container>
-      <NewHeader></NewHeader>
       {/* <Header></Header> */}
+      <NewHeader></NewHeader>
       <Hero></Hero>
-      {/* <Footer></Footer>   */}
+      <Footer></Footer>
     </container>
   )
 }

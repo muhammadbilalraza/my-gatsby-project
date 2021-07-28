@@ -1,14 +1,12 @@
 .footer {
-  background-color: grey;
-  border-top: 5px solid black;
-  padding: 5px 5px 5px 5px;
-  margin: 0 0 0 0;
-  height: 100vh;
-  position: fixed;
-  top: 70%;
+  position: relative;
+  background-color: whitesmoke;
+  border-top: 0.2em solid rgba(114, 114, 114, 0.432);
+  /* padding: 5px 5px 5px 5px; */
+  /* margin: 0 0 0 0; */
   bottom: 0;
 }
 
 .footer * {
-  display: inline-block;
+  /* display: inline-block; */
 }
