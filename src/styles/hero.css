@@ -3,8 +3,9 @@
   position: relative;
 }
 
-.hero > img {
+img {
   width: 50vw;
+  height: auto;
 }
 
 .button,
@@ -19,25 +20,54 @@
 }
 
 .hero > p {
-  font-size: x-large;
+  font-size: 1.5em;
   top: 50%;
 }
 
 .button {
+  position: absolute;
   background-color: white;
   color: black;
-  font-size: small;
+  font-size: 0.7em;
   letter-spacing: 2px;
   text-decoration: none;
   font-weight: 500;
   text-align: center;
   top: 90%;
-  margin: 5px;
-  padding: 15px 54px;
+  margin-bottom: 5%;
+  padding: 5px 54px;
 }
 
 .button:hover {
   transition: 0.25ms ease-in-out;
   background-color: black;
   color: white;
+}
+
+@media screen and (max-width: 990px) {
+  #second-image {
+    width: 100vw;
+  }
+
+  #first-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .hero > p {
+    font-size: 1em;
+  }
+
+  .button > p {
+    font-size: 0.5em;
+  }
+
+  .button {
+    padding: 3px 36px;
+  }
+
+  p {
+    text-align: justify;
+  }
 }

@@ -21,11 +21,13 @@ header {
 }
 
 .nav_logo {
-  position: absolute;
-  margin-left: 50%;
-  margin-right: 50%;
+  position: relative;
+  margin-left: 45vw;
+  margin-right: 55vw;
   margin-top: 1em;
   margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 ul {
@@ -128,6 +130,11 @@ nav {
     display: inline-block;
     margin: 0.5em;
   }
+
+  /* .nav_logo {
+    margin-left: 43%;
+    margin-right: auto;
+  } */
 
   .navbar_links {
     margin-left: 2em;
