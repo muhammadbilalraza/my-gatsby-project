@@ -7,9 +7,9 @@ footer {
 
 .footer-1 {
   position: relative;
+  display: inline-block;
   background-color: white;
   border-top: 0.2em solid gainsboro;
-  padding: 1em;
 }
 
 .footer-2 {
@@ -19,4 +19,36 @@ footer {
 .footer-1,
 .footer-2 {
   width: 100%;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.sitemap > div {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+  padding: 1em;
+}
+
+.company {
+  /* margin-left: 1em; */
+}
+
+.subscription-form {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  margin: 1em;
+  padding: 1em;
 }
