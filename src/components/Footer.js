@@ -4,45 +4,45 @@ import { Link } from "gatsby"
 const Footer = () => {
   return (
     <footer class="footer">
-      <container class="footer_1">
+      <div class="footer-1">
         <div class="sitemap">
           <div class="support">
             <h3>SUPPORT</h3>
-            <list>
-              <ul>
-                <Link to="#footer">Virtual Shopping</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">How to Care for Your Jewelry</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">Shipping</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">Ring Sizer</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">Accessibility Statement</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">Contact Us</Link>
-              </ul>
-            </list>
+            <ul>
+              <li>
+                <Link to="#">Virtual Shopping</Link>
+              </li>
+              <li>
+                <Link to="#">How to Care for Your Jewelry</Link>
+              </li>
+              <li>
+                <Link to="#">Shipping</Link>
+              </li>
+              <li>
+                <Link to="#">Ring Sizer</Link>
+              </li>
+              <li>
+                <Link to="#">Accessibility Statement</Link>
+              </li>
+              <li>
+                <Link to="#">Contact Us</Link>
+              </li>
+            </ul>
           </div>
 
           <div class="companay">
             <h3>COMPANAY</h3>
-            <list>
-              <ul>
-                <Link to="#footer">About Us</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">Careers</Link>
-              </ul>
-              <ul>
-                <Link to="#footer">Stores</Link>
-              </ul>
-            </list>
+            <ul>
+              <li>
+                <Link to="#">About Us</Link>
+              </li>
+              <li>
+                <Link to="#">Careers</Link>
+              </li>
+              <li>
+                <Link to="#">Stores</Link>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -60,9 +60,9 @@ const Footer = () => {
             />
           </form>
         </div>
-      </container>
+      </div>
 
-      <container class="footer_2">
+      <div class="footer-2">
         <div>
           <p>flag</p>
           <a>Handle</a>
@@ -76,7 +76,7 @@ const Footer = () => {
           <Link to="#footer">(c)2021 Mejuri Inc.</Link>
         </div>
         <a>Help</a>
-      </container>
+      </div>
     </footer>
   )
 }

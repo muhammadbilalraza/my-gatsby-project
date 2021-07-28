@@ -1,12 +1,22 @@
-.footer {
+footer {
+  display: flex;
   position: relative;
-  background-color: whitesmoke;
-  border-top: 0.2em solid rgba(114, 114, 114, 0.432);
-  /* padding: 5px 5px 5px 5px; */
-  /* margin: 0 0 0 0; */
   bottom: 0;
+  flex-flow: wrap;
 }
 
-.footer * {
-  /* display: inline-block; */
+.footer-1 {
+  position: relative;
+  background-color: white;
+  border-top: 0.2em solid gainsboro;
+  padding: 1em;
+}
+
+.footer-2 {
+  background-color: snow;
+}
+
+.footer-1,
+.footer-2 {
+  width: 100%;
 }

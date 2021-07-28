@@ -3,7 +3,7 @@
   position: relative;
 }
 
-img {
+.hero > img {
   width: 50%;
 }
 
@@ -66,7 +66,7 @@ img {
     padding: 3px 36px;
   }
 
-  p {
+  .hero p {
     text-align: justify;
   }
 }
