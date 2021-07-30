@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer>
       <div class="footer-1">
         <div class="sitemap">
           <div class="support">
@@ -29,8 +29,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          <div class="companay">
+          <div class="company">
             <h3>COMPANAY</h3>
             <ul>
               <li>
@@ -46,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="subscription_form">
+        <div class="subscription-form">
           <p>JOIN THE FINE CREW</p>
           <p>
             Insider info on new arrivals, early access, and everything fine.
