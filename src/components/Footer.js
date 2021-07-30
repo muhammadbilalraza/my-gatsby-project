@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 const Footer = () => {
   return (
     <footer>
-      <div class="footer-1">
-        <div class="sitemap">
-          <div class="support">
+      <div className="footer-1">
+        <div className="sitemap">
+          <div className="support">
             <h3>SUPPORT</h3>
             <ul>
               <li>
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="company">
+          <div className="company">
             <h3>COMPANAY</h3>
             <ul>
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="subscription-form">
+        <div className="subscription-form">
           <p>JOIN THE FINE CREW</p>
           <p>
             Insider info on new arrivals, early access, and everything fine.
@@ -61,21 +61,21 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-2">
-        <div className="footer-2-1">
-          <div>flag</div>
+      <div className="footer-2">
+        <div>
+          <div>flag div</div>
           <div>
             <a>Handle</a>
             <a>Handle</a>
             <a>Handle</a>
           </div>
         </div>
-      </div>
 
-      <div>
-        <Link to="">Terms and Conditions</Link>
-        <Link to="">Privacy Policy</Link>
-        <Link to="">(c)2021 Mejuri Inc.</Link>
+        <div>
+          <Link to="">Terms and Conditions</Link>
+          <Link to="">Privacy Policy</Link>
+          <Link to="">(c)2021 Mejuri Inc.</Link>
+        </div>
       </div>
     </footer>
   )

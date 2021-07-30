@@ -1,54 +1,74 @@
-footer {
-  display: flex;
-  position: relative;
-  bottom: 0;
-  flex-flow: wrap;
-}
-
-.footer-1 {
-  position: relative;
-  display: inline-block;
-  background-color: white;
-  border-top: 0.2em solid gainsboro;
-}
-
-.footer-2 {
-  background-color: snow;
-}
-
-.footer-1,
-.footer-2 {
-  width: 100%;
-}
+/* footer 
+  footer-1 
+  - sitemap
+    - support
+    - company
+  - subsciption-form */
 
 footer ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 footer a {
+  /* margin: 0; */
   text-decoration: none;
   color: black;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 0.8em;
 }
 
-.sitemap > div {
-  display: inline-block;
-  vertical-align: top;
+footer,
+.footer-1,
+.footer-1 > div,
+.footer-2 {
+  display: flex;
+  /* position: relative; */
+}
+
+footer {
+  bottom: 0;
+  flex-direction: column;
+  border-top: 0.2em solid gainsboro;
+}
+
+.footer-1 {
+  background-color: white;
+  flex-flow: wrap;
+}
+
+.sitemap {
   margin: 1em;
-  padding: 1em;
 }
 
-.company {
-  /* margin-left: 1em; */
+.sitemap :first-child {
+  margin-inline-end: 1em;
 }
 
 .subscription-form {
-  position: absolute;
-  top: 1em;
-  right: 2em;
+  flex-direction: column;
   margin: 1em;
-  padding: 1em;
+}
+
+.subscription-form input {
+  width: 98%;
+}
+
+.footer-2 {
+  background-color: snow;
+  width: 100%;
+  flex-direction: inherit;
+  flex-basis: 100%;
+  padding-block: 1em;
+}
+
+.footer-2 div {
+  margin-inline: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-2 div a {
+  margin-inline: 1em;
 }
