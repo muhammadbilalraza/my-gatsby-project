@@ -63,19 +63,20 @@ const Footer = () => {
       </div>
 
       <div class="footer-2">
-        <div>
-          <p>flag</p>
-          <a>Handle</a>
-          <a>Handle</a>
-          <a>Handle</a>
+        <div className="footer-2-1">
+          <div>flag</div>
+          <div>
+            <a>Handle</a>
+            <a>Handle</a>
+            <a>Handle</a>
+          </div>
         </div>
+      </div>
 
-        <div>
-          <Link to="#footer">Terms and Conditions</Link>
-          <Link to="#footer">Privacy Policy</Link>
-          <Link to="#footer">(c)2021 Mejuri Inc.</Link>
-        </div>
-        <a>Help</a>
+      <div>
+        <Link to="">Terms and Conditions</Link>
+        <Link to="">Privacy Policy</Link>
+        <Link to="">(c)2021 Mejuri Inc.</Link>
       </div>
     </footer>
   )
