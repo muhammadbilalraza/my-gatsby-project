@@ -3,9 +3,19 @@
   position: relative;
 }
 
-.hero > img {
+.hero img {
   width: 50%;
 }
+/* 
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero img {
+    width: 100vw;
+    height: 50%;
+  }
+} */
 
 .button,
 .hero > p {
@@ -43,7 +53,7 @@
   color: white;
 }
 
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 768px) {
   #second-image {
     width: 100vw;
   }
