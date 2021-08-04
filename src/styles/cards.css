@@ -1,9 +1,15 @@
 .category-section {
   display: flex;
   flex-direction: column;
-  margin: 1em;
+  margin: 3em;
   block-size: fit-content;
   position: relative;
+}
+
+.category-section::after {
+  content: "";
+  margin: 3em 0;
+  border-bottom: 1px solid black;
 }
 
 .category--heading {
@@ -25,7 +31,7 @@
   position: relative;
   height: fit-content;
   /* max-width: 80%; */
-  gap: 0.4em;
+  gap: 0.3em;
 }
 
 /* .card--content {
@@ -37,17 +43,17 @@
 .link--image {
   position: relative;
   display: inherit;
-  flex-wrap: nowrap;
   flex-direction: column;
   text-decoration: none;
   color: black;
-  height: 60vh;
-  width: 50vw;
+  width: 15em;
+  height: 22em;
 }
 
 .link--image img {
   position: relative;
-  height: 100%;
+  height: 18em;
+
   object-fit: cover;
   object-position: center;
   margin-bottom: 1em;

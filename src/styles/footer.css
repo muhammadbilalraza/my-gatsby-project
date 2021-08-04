@@ -31,16 +31,16 @@ footer {
 }
 
 .sitemap {
-  margin: 1em;
+  margin: 3em;
 }
 
 .sitemap :first-child {
-  margin-inline-end: 1em;
+  margin-inline-end: 3em;
 }
 
 .subscription-form {
   flex-direction: column;
-  margin: 1em;
+  margin: 3em;
 }
 
 .subscription-form input {
@@ -56,7 +56,7 @@ footer {
 }
 
 .footer-2 > div {
-  margin: 0.8em 2em;
+  margin: 0.8em 3em;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

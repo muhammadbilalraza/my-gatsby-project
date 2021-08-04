@@ -13,24 +13,32 @@ export default function Cards() {
       </div>
 
       <div className="card">
-        {/* <div className="card--content"> */}
         <Link to="#category" className="link--image">
           <img src={Image1} alt="" />
           <p>Earrings</p>
         </Link>
-        {/* </div> */}
-        {/* <div className="card--content"> */}
+
         <Link to="#category" className="link--image">
           <img src={Image2} alt="" />
           <p>Necklaces</p>
         </Link>
-        {/* </div> */}
-        {/* <div className="card--content"> */}
+
         <Link to="#category" className="link--image">
           <img src={Image3} alt="" />
           <p>Rings</p>
         </Link>
-        {/* </div> */}
+        <Link to="#category" className="link--image">
+          <img src={Image3} alt="" />
+          <p>Rings</p>
+        </Link>
+        <Link to="#category" className="link--image">
+          <img src={Image3} alt="" />
+          <p>Rings</p>
+        </Link>
+        <Link to="#category" className="link--image">
+          <img src={Image3} alt="" />
+          <p>Rings</p>
+        </Link>
       </div>
     </div>
   )
