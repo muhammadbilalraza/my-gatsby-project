@@ -10,31 +10,37 @@ export default function StyleEdit() {
     <div className="style-edit-container">
       <h2>Style Edit</h2>
       <div className="blog-cards">
-        <div className="--blogs">
-          <Link>
-            <img id="firstImage" src={Image1} alt="" />
-            <p></p>
-            Read more
-          </Link>
-        </div>
-        <div className="--blogs">
-          <Link>
-            <img src={Image2} alt="" />
-            <p></p>
-            Read more
-          </Link>
-        </div>
-        <div className="--blogs">
-          <Link>
-            <img src={Image1} alt="" />
-            <p></p>
-            Read more
-          </Link>
-        </div>
+        {/* <div className="--blogs"> */}
+        <Link>
+          <img id="firstImage" src={Image1} alt="" />
+          <p className="description-paragraph">
+            3 ways to wear men's jewelry - by a guy who knows
+          </p>
+          <p className="read-more">Read more</p>
+        </Link>
+        {/* </div> */}
+        {/* <div className="--blogs"> */}
+        <Link>
+          <img src={Image2} alt="" />
+          <p className="description-paragraph">
+            Matilda Djerf's low maintenance summer routine
+          </p>
+          <p className="read-more">Read more</p>
+        </Link>
+        {/* </div> */}
+        {/* <div className="--blogs"> */}
+        <Link>
+          <img src={Image1} alt="" />
+          <p className="description-paragraph">
+            How to get that signature mejuri stack
+          </p>
+          <p className="read-more">Read more</p>
+        </Link>
+        {/* </div> */}
+      </div>
 
-        <div className="edit-button">
-          <Link></Link>
-        </div>
+      <div className="edit-button">
+        <Link>See all edits</Link>
       </div>
     </div>
   )
