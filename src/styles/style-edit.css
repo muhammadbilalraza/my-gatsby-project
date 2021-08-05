@@ -1,0 +1,53 @@
+.style-edit-container {
+  display: flex;
+  position: relative;
+
+  flex-direction: column;
+
+  margin: 3em;
+  padding: 0;
+
+  /* height: max-content; */
+}
+
+.style-edit-container img {
+  height: auto;
+  width: 33.33vw;
+}
+
+#firstImage {
+  height: 17em;
+  width: auto;
+}
+
+.edit-button {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: " ";
+  background-color: black;
+  width: 7em;
+  height: 3em;
+  margin-top: 3em;
+}
+
+.blog-cards {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.blog-cards :first-child {
+  /* flex-basis: 100%; */
+  flex: 1 1 100%;
+  /* height: fit-content; */
+}
+
+.--blogs {
+  /* flex-basis: 50%; */
+  flex: 1 1 50%;
+
+  height: fit-content;
+}

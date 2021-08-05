@@ -8,7 +8,7 @@
 
 .category-section::after {
   content: "";
-  margin: 3em 0;
+  margin-top: 3em;
   border-bottom: 1px solid black;
 }
 
@@ -30,21 +30,15 @@
   overflow-x: auto;
   position: relative;
   height: fit-content;
-  /* max-width: 80%; */
   gap: 0.3em;
 }
-
-/* .card--content {
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative;
-} */
 
 .link--image {
   position: relative;
   display: inherit;
   flex-direction: column;
   text-decoration: none;
+  text-transform: uppercase;
   color: black;
   width: 15em;
   height: 22em;

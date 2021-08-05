@@ -16,15 +16,15 @@ header {
 }
 
 .nav_logo img {
-  width: 8em;
+  width: 10em;
   height: auto;
 }
 
 .nav_logo {
   position: absolute;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin: 1em auto 1em 45vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
 }
 
 .navbar ul {

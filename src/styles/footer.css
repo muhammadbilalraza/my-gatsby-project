@@ -35,12 +35,20 @@ footer {
 }
 
 .sitemap :first-child {
-  margin-inline-end: 3em;
+  margin-inline-end: 1.5em;
 }
 
 .subscription-form {
+  /* right: 3em; */
   flex-direction: column;
   margin: 3em;
+}
+
+@media screen and (min-width: 990px) {
+  .subscription-form {
+    position: absolute;
+    right: 0em;
+  }
 }
 
 .subscription-form input {
