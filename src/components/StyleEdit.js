@@ -25,7 +25,7 @@ export default function StyleEdit() {
             <p className="description-paragraph">
               Matilda Djerf's low maintenance summer routine
             </p>
-            <p className="read-more">Read more</p>
+            <p className="read-more">Watch now</p>
           </Link>
         </div>
         <div>
