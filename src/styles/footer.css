@@ -34,6 +34,10 @@ footer {
   margin: 3em;
 }
 
+.sitemap li {
+  margin-block: 6px;
+}
+
 .sitemap :first-child {
   margin-inline-end: 1.5em;
 }
@@ -48,6 +52,15 @@ footer {
   .subscription-form {
     position: absolute;
     right: 0em;
+  }
+
+  .sitemap a {
+    border-bottom: 1px solid transparent;
+    transition: 0.25s ease;
+  }
+
+  .sitemap a:hover {
+    border-color: black;
   }
 }
 
