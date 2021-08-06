@@ -65,6 +65,7 @@
 
   left: 50%;
   transform: translateX(-50%);
+  bottom: 0;
 
   border: 1px black solid;
 }
@@ -85,4 +86,41 @@
 .edit-button a:hover {
   color: white;
   background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-cards {
+    flex-wrap: nowrap;
+  }
+
+  .blog-cards :first-child {
+    flex-basis: 33.33%;
+  }
+
+  .edit-button {
+    position: absolute;
+    top: 2.5em;
+    left: 100.5%;
+    transform: translate(-100%, -100%);
+    border: none;
+    margin: 0;
+    width: 10em;
+    height: fit-content;
+  }
+
+  .edit-button a {
+    padding: 0;
+    text-decoration: underline;
+    font-size: initial;
+    transition: initial;
+    background-color: initial;
+  }
+
+  .edit-button:hover {
+    transition: initial;
+  }
+  .edit-button a:hover {
+    color: initial;
+    background-color: initial;
+  }
 }
