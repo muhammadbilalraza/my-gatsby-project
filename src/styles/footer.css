@@ -16,10 +16,11 @@ footer,
 .footer-1 > div,
 .footer-2 {
   display: flex;
-  /* position: relative; */
+  position: relative;
 }
 
 footer {
+  /* position: relative; */
   bottom: 0;
   flex-direction: column;
   border-top: 0.2em solid gainsboro;

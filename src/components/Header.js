@@ -19,7 +19,29 @@ const NewHeader = () => {
               <Link to="#style-edits">Style Edits</Link>
             </li>
             <li>
-              <Link to="#about">About</Link>
+              <Link to="/about" className="about">
+                About
+              </Link>
+              <ul className="about-list">
+                <li>
+                  <Link>Our Commitment</Link>
+                </li>
+                <li>
+                  <Link>Overview</Link>
+                </li>
+                <li>
+                  <Link>Behind Our Fine Jewelry</Link>
+                </li>
+                <li>
+                  <Link>Fair Pricing</Link>
+                </li>
+                <li>
+                  <Link>Our Materials</Link>
+                </li>
+                <li>
+                  <Link>How to Care for Your Jewelry</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -43,7 +65,7 @@ const NewHeader = () => {
       </label>
 
       <div className="navbar nav_logo">
-        <Link to="#">
+        <Link to="/">
           <img src={companyLogo} alt="Mejuri logo" />
         </Link>
       </div>
